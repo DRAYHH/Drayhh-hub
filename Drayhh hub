@@ -1,5 +1,5 @@
-print("https://discord.gg/aUd8umqUKu")
-toclipboard("https://discord.gg/aUd8umqUKu")
+print("https://https://discord.gg/AcwbcRtM")
+toclipboard("https://discord.gg/AcwbcRtM")
 if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Death") then
 	game:GetService("ReplicatedStorage").Effect.Container.Death:Destroy()
 end
@@ -9,8 +9,8 @@ end
 _G.Settings = {
 
 	Main = {
-		["Auto Farm Level"] = false,
-		["Fast Auto Farm Level"] = false,
+		["Auto Farm Level"] = true,
+		["Fast Auto Farm Level"] = true,
 
 		--[Mob Aura]
 
@@ -18,20 +18,20 @@ _G.Settings = {
 		["Mob Aura"] = false,
 
 		--[World 1]
-		["Auto New World"] = false,
-		["Auto Saber"] = false,
+		["Auto New World"] = true,
+		["Auto Saber"] = truee,
 		["Auto Pole"] = false,
 
-		["Auto Buy Ablility"] = false,
+		["Auto Buy Ablility"] = true,
 
 		--[World 2]
-		["Auto Third Sea"] = false,
-		["Auto Factory"] = false,
+		["Auto Third Sea"] = true,
+		["Auto Factory"] = true,
 		["Auto Factory Hop"] = false,
-		["Auto Bartilo Quest"] = false,
+		["Auto Bartilo Quest"] = true,
 
 		["Auto True Triple Katana"] = false,
-		["Auto Rengoku"] = false,
+		["Auto Rengoku"] = true,
 		["Auto Swan Glasses"] = false,
 		["Auto Dark Coat"] = false,
 		["Auto Ectoplasm"] = false,
@@ -41,20 +41,20 @@ _G.Settings = {
 
 		--[World 3]
 		["Auto Holy Torch"] = false,
-		["Auto Buddy Swords"] = false,
+		["Auto Buddy Swords"] = true,
 		["Auto Farm Boss Hallow"] = false,
 		["Auto Rainbow Haki"] = false,
 		["Auto Elite Hunter"] = false,
 		["Auto Musketeer Hat"] = false,
 		["Auto Buddy Sword"] = false,
-		["Auto Farm Bone"] = false,
+		["Auto Farm Bone"] = true,
 		["Auto Ken-Haki V2"] = false,
-		["Auto Cavander"] = false,
-		["Auto Yama Sword"] = false,
-		["Auto Tushita Sword"] = false,
+		["Auto Cavander"] = true,
+		["Auto Yama Sword"] = true,
+		["Auto Tushita Sword"] = true,
 		["Auto Serpent Bow"] = false,
 		["Auto Dark Dagger"] = false,
-		["Auto Cake Prince"] = false,
+		["Auto Cake Prince"] = true,
 		["Auto Dough V2"] = false,
 		["Auto Random Bone"] = false,
 
@@ -69,21 +69,21 @@ _G.Settings = {
 
 	},
 	FightingStyle = {
-		["Auto God Human"] = false,
-		["Auto Superhuman"] = false,
-		["Auto Electric Claw"] = false,
-		["Auto Death Step"] = false,
-		["Auto Fully Death Step"] = false,
-		["Auto SharkMan Karate"] = false,
-		["Auto Fully SharkMan Karate"] = false,
-		["Auto Dragon Talon"] = false,
+		["Auto God Human"] = true,
+		["Auto Superhuman"] = true,
+		["Auto Electric Claw"] = true,
+		["Auto Death Step"] = true,
+		["Auto Fully Death Step"] = true,
+		["Auto SharkMan Karate"] = true,
+		["Auto Fully SharkMan Karate"] = true,
+		["Auto Dragon Talon"] = true,
 	},
 	Boss = {
-		["Auto All Boss"] = false,
+		["Auto All Boss"] = true,
 		["Auto Boss Select"] = false,
 		["Select Boss"] = {},
 
-		["Auto Quest"] = false,
+		["Auto Quest"] = truee,
 	},
 	Mastery = {
 		["Select Multi Sword"] = {},
@@ -124,14 +124,14 @@ _G.Settings = {
 	Stat = {
 		--[Auto Stats]
 		["Enabled Auto Stats"] = false,
-		["Auto Stats Kaitun"] = false,
+		["Auto Stats Kaitun"] = true,
 
 		["Select Stats"] = {"Melee"}, --{Max Stats,Melee,Defense,Sword,Devil Fruit,Gun}
 		["Point Select"] = 3, --{Recommended , Max : 9}
 
 		--[Auto Redeem Code]
 
-		["Enabled Auto Redeem Code"] = false,
+		["Enabled Auto Redeem Code"] = true,
 		["Select Level Redeem Code"] = 1, --{Max : 2400}
 	},
 
@@ -142,7 +142,7 @@ _G.Settings = {
 		["Infinities Geppo"] = false,
 		["Infinities Energy"] = false,
 
-		["No Fog"] = false,
+		["No Fog"] = true,
 		["Wall-TP"] = false,
 
 		["Fly"] = false,
@@ -157,18 +157,18 @@ _G.Settings = {
 
 	Fruits = {
 		["Auto Buy Random Fruits"] = false,
-		["Auto Store Fruits"] = false,
+		["Auto Store Fruits"] = true,
 
 		["Select Devil Fruits"] = {}, -- {"Bomb-Bomb","Spike-Spike","Chop-Chop","Spring-Spring","Kilo-Kilo","Spin-Spin","Kilo-Kilo","Spin-Spin","Bird: Falcon","Smoke-Smoke","Flame-Flame","Ice-Ice","Sand-Sand","Dark-Dark","Revive-Revive","Diamond-Diamond","Light-Light","Love-Love","Rubber-Rubber","Barrier-Barrier","Magma-Magma","Door-Door","Quake-Quake","Human-Human: Buddha","String-String","Bird-Bird: Phoenix","Rumble-Rumble","Paw-Paw","Gravity-Gravity","Dough-Dough","Shadow-Shadow","Venom-Venom","Control-Control","Soul-Soul","Dragon-Dragon"}
 		["Auto Buy Devil Fruits Sniper"] = false,
 	},
 
 	Raids = {
-		["Auto Raids"] = false,
+		["Auto Raids"] = true,
 
-		["Kill Aura"] = false,
+		["Kill Aura"] = true,
 		["Auto Awakened"] = false,
-		["Auto Next Place"] = false,
+		["Auto Next Place"] = true,
 
 		["Select Raids"] = {}, -- {"Flame","Ice","Quake","Light","Dark","String","Rumble","Magma","Human: Buddha","Sand","Bird: Phoenix","Dough"},
 	},
